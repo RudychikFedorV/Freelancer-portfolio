@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100%;
+  background: #f8f8f8;
+  font-family: "League Spartan", sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+a {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+.wrapper {
+}
+.container {
+  max-width: 1400px;
+  max-height: 760px;
+  flex-shrink: 0;
+  background-color: #171718;
+}
+.header {
+}
+.header__container {
+}
+.header__logo {
+}
+.header__body {
+}
+.menu {
+}
+.header__menu {
+}
+.menu__list {
+}
+.menu__item {
+}
+.menu__link {
+}
+.page {
+}
+.page__main.main__section {
+}
+.main-section__container {
+}
+.main-section__content {
+}
+.title {
+}
+.main-section__title {
+}
+.main-section__active {
+}
+.main-section__text {
+}
+.main-text__info {
+}
+.btn {
+}
+.btn_primary {
+}
+.info__btn {
+}
+.main-projects {
+}
+.main-projects__title {
+}
+.main-projects__list {
+}
+.projects__item {
+}
+.item {
+}
+.item__img {
+}
+.item__title {
+}
+/* footer */
+.footer {
+  max-width: 1400px;
+  max-height: 200px;
+  flex-shrink: 0;
+  background-color: #171718;
+}
+.footer__container {
+}
+.footer-row {
+}
+.footer-copiright {
+}
+.footer-copiright-name {
+}
+.footer-icons {
+}
+.footer-icons-row {
+}
+.footer-contacts {
+}
+.footer-button {
+}
