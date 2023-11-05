@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="./css/media.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <title>Freelancer portfolio</title>
 </head>
 <body>
@@ -20,14 +24,14 @@
                     </div>
                     <nav class="header__menu menu">
                         <ul class="menu__list">
-                            <li class="menu__item">
-                                <a class="menu__link" href="/">Projects</a>
+                            <li class="menu__item-one">
+                                <a class="menu__link-one" href="/">Projects</a>
                             </li>
-                            <li class="menu__item">
-                                <a class="menu__link" href="/">Skills</a>
+                            <li class="menu__item-two">
+                                <a class="menu__link-two" href="/">Skills</a>
                             </li>
-                            <li class="menu__item">
-                                <a class="menu__link" href="/">Contacts</a>
+                            <li class="menu__item-three">
+                                <a class="menu__link-three" href="/">Contacts</a>
                             </li>
                         </ul>
                     </nav>
@@ -35,7 +39,7 @@
             </header>
             <!-- page -->
             <div class="page-main__section">
-                <div class="main-section__content">
+                <div class="main-section__content menu">
                     <h1 class="main-section__title">Hi, my name is 
                         <span class="main-section__active">Fedir</span>
                     </h1>
@@ -50,40 +54,53 @@
             <div class="main-projects__title">Projects</div>
             <div class="main-projects__list">
                 <div class="projects__item item">
-                    <div class="item__img">
-                        <img src="./img/portfolio/01.png" alt="Gaming">
-                    </div>
-                    <div class="item__title">Gaming streaming portal</div>
+                    <a href="/" class="projects__item-link">
+                        <div class="item__img">
+                            <img src="./img/portfolio/01.png" alt="Gaming">
+                        </div>
+                        <div class="item__title">Gaming streaming portal</div>
+                    </a>
+                </div>
+                </a>
+                <div class="projects__item item">
+                    <a href="/" class="projects__item-link">
+                        <div class="item__img">
+                            <img src="./img/portfolio/02.png" alt="Video service">
+                        </div>
+                        <div class="item__title">Video service</div>
+                    </a>                    
                 </div>
                 <div class="projects__item item">
-                    <div class="item__img">
-                        <img src="./img/portfolio/02.png" alt="Video service">
-                    </div>
-                    <div class="item__title">Video service</div>
+                    <a href="/" class="projects__item-link">
+                        <div class="item__img">
+                            <img src="./img/portfolio/03.png" alt="Video portal">
+                        </div>
+                        <div class="item__title">Video portal</div>
+                    </a>
                 </div>
                 <div class="projects__item item">
-                    <div class="item__img">
-                        <img src="./img/portfolio/03.png" alt="Video portal">
-                    </div>
-                    <div class="item__title">Video portal</div>
+                    <a href="/" class="projects__item-link">
+                        <div class="item__img">
+                            <img src="./img/portfolio/04.png" alt="Dating app">
+                        </div>
+                        <div class="item__title">Dating app</div>
+                    </a>
                 </div>
                 <div class="projects__item item">
-                    <div class="item__img">
-                        <img src="./img/portfolio/04.png" alt="Dating app">
-                    </div>
-                    <div class="item__title">Dating app</div>
+                    <a href="/" class="projects__item-link">
+                        <div class="item__img">
+                            <img src="./img/portfolio/05.png" alt="Landing">
+                        </div>
+                        <div class="item__title">Landing</div>
+                    </a>
                 </div>
                 <div class="projects__item item">
-                    <div class="item__img">
-                        <img src="./img/portfolio/05.png" alt="Landing">
-                    </div>
-                    <div class="item__title">Landing</div>
-                </div>
-                <div class="projects__item item">
-                    <div class="item__img">
-                        <img src="./img/portfolio/06.png" alt="Gaming community">
-                    </div>
-                    <div class="item__title">Gaming community</div>
+                    <a href="/" class="projects__item-link">
+                        <div class="item__img">
+                            <img src="./img/portfolio/06.png" alt="Gaming community">
+                        </div>
+                        <div class="item__title">Gaming community</div>
+                    </a>
                 </div>
             </div>
         </section>
@@ -92,13 +109,12 @@
             <div class="footer__container">
                 <div class="footer-row">
                     <div class="footer-copiright">
-                        <div class="footer-copiright-name">© Fedor Rudychik</div>
+                        <div class="footer-copiright-name">© Fedir Rudychik</div>
                         <p>HTML layout and website development</p>
                     </div>
                         <div class="footer-icons">
                            <p> My profiles on social networks:</p>
                            <div class="footer-icons-row">
-                            <a href="/"><img src="./img/icons/vk.svg" alt="vk"></a>
                             <a href="/"><img src="./img/icons/instagram.svg" alt="instagram"></a>
                             <a href="/"><img src="./img/icons/twitter.svg" alt="twitter"></a>
                             <a href="/"><img src="./img/icons/gitHub.svg" alt="gitHub"></a>
